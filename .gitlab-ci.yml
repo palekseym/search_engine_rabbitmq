@@ -8,4 +8,4 @@ build:
   services:
     - docker:dind
   script:
-    - echo 1
+    - echo @@@#$#######d@@@
