@@ -1,0 +1,38 @@
+{
+    "users": [
+        {
+            "name": "guest",
+            "password_hash": "PUfnz4ukVggCb9PoDNj9DSWUpkl7fv6/7GUyTlj/ICyi7sET",
+            "hashing_algorithm": "rabbit_password_hashing_sha256",
+            "tags": "administrator"
+        }
+    ],
+    "vhosts": [
+        {
+            "name": "/"
+        }
+    ],
+    "permissions": [
+        {
+            "user": "guest",
+            "vhost": "/",
+            "configure": ".*",
+            "write": ".*",
+            "read": ".*"
+        }
+    ],
+    "topic_permissions": [],
+    "parameters": [],
+    "policies": [],
+    "queues": [
+        {
+            "name": "urls",
+            "vhost": "/",
+            "durable": false,
+            "auto_delete": false,
+            "arguments": {}
+        }
+    ],
+    "exchanges": [],
+    "bindings": []
+}
