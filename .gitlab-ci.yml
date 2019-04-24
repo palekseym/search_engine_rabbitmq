@@ -4,8 +4,8 @@ stages:
   - build
 
 build:
-  stages: build
+  stage: build
   services:
     - docker:dind
   script:
-    - echo @@@#$#######d@@@
+    - echo "Test"
