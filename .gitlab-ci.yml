@@ -1,0 +1,11 @@
+image: docker:latest
+
+stages:
+  - build
+
+build:
+  stages: build
+  services:
+    - docker:dind
+  script:
+    - echo 1
